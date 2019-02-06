@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans");
+body {
+  background-color: #212162;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+a {
+  color: aqua;
+}
+.logo {
+  width: 200px;
+}
+
+.heading-emoji {
+  font-size: 50px;
+  text-align: center;
+}
+.heading-info {
+  font-weight: bold;
+}
+
+.navbar {
+  background: transparent !important;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.splitter {
+  width: 150px;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.295);
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.text-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.alert {
+  background-color: #191950;
+  border-radius: 10px;
+  margin-top: 25px;
+  border-bottom: 7px solid #0d0d44;
+  width: 100%;
+}
+
+.heading {
+    width: 80%;
+}
